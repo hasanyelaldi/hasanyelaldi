@@ -37,12 +37,12 @@ ISQAB, IREB
 
 ### 📊 GitHub Stats
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=hasanyelaldi&show_icons=true&theme=radical" alt="GitHub Stats" />
-  <br><br>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=hasanyelaldi&theme=radical" alt="GitHub Profile Summary" />
-  <br><br>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hasanyelaldi&layout=compact&theme=radical" alt="Most Used Languages" />
+<div align="center" style="display: flex; justify-content: center; flex-wrap: wrap; gap: 10px;">
+  <div>
+    <img width="600" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=hasanyelaldi&theme=radical" alt="GitHub Profile Summary" />
+  </div>
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=hasanyelaldi&show_icons=true&theme=radical" alt="GitHub Stats" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hasanyelaldi&layout=compact&theme=radical" alt="Most Used Languages" />
 </div>
 
 
