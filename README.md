@@ -15,30 +15,11 @@ Lately my focus is applying LLMs and agentic workflows to everyday engineering w
 - **Full stack development:** React / TypeScript frontends and Spring Boot services, CI/CD, and cloud operations at 99.9% availability.
 - **AI-assisted engineering:** internal tools built on Azure OpenAI, RAG and MCP, plus company guidelines for using LLMs in development.
 
-### Selected AI tooling
-
-| Tool | What it does |
-|---|---|
-| Multi-agent code reviewer | Six reviewer personas grounded in code guidelines and architecture docs, using RAG over MongoDB Vector Search |
-| Error root-cause analysis | Azure OpenAI inside Spring Boot services; detects errors, explains likely causes, notifies owners via Teams and email |
-| Engineering workflow agents | Claude Code multi-agent system connected to Azure, PostgreSQL and in-house tools through MCP |
-| Open-source vulnerability remediation | n8n pipeline combining multiple models and sources such as OWASP to track and propose fixes; saves ~150–200 engineering hours per year |
-
-## Tech stack
-
-| Area | Technologies |
-|---|---|
-| **AI** | LLM integration, Azure OpenAI, RAG, vector databases, MCP, multi-agent systems, Claude Code, GitHub Copilot, n8n |
-| **Frontend** | React, Next.js, Vue.js, TypeScript, Redux, Tailwind CSS |
-| **Backend** | Java, Spring Boot, Node.js, Express.js, REST APIs |
-| **Data** | PostgreSQL, MongoDB |
-| **Cloud & DevOps** | Azure, Docker, CI/CD, GitHub Actions |
-| **Testing & Identity** | JMeter, Selenium, Keycloak, Auth0 |
-
 ## Open source
 
+- [**plimsoll**](https://github.com/hasanyelaldi/plimsoll): static analysis for resilience configuration in microservice graphs. It reads retry, timeout and circuit-breaker settings from code, Spring YAML and Istio manifests and flags values that risk retry storms, with the source of every finding.
 - [**repo-pulse-mcp**](https://github.com/hasanyelaldi/repo-pulse-mcp): read-only MCP server for local git repository insights
 
 ---
 
-Happy to talk about web development, AI tooling for engineering teams, or software architecture.
+Happy to talk about web development, applied AI, or software architecture.
